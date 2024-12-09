@@ -19,12 +19,13 @@ const Inicio = () => {
                     onClick={() => navigate(`/sinpalabras`)}
                     className="lg:col-span-8 sm:col-span-2 h-[180px] sm:h-[280px] lg:h-[380px] bg-primary text-neutral text-lg sm:text-xl lg:text-2xl font-semibold rounded-lg shadow-lg hover:bg-secondary transition-all flex flex-col items-center justify-center py-2"
                 >
-                    <img src={sinPalabras} className='w-[60%] rounded-xl' />
-                    Juego Principal
+                    Sin Palabras
                 </button>
                 {/* Botones Secundarios */}
-                <button className="lg:col-span-4 sm:col-span-1 h-[140px] sm:h-[180px] bg-success text-neutral text-md sm:text-xl font-medium rounded-lg shadow-md hover:bg-secondary transition-all">
-                    Juego 2
+                <button
+                onClick={() => navigate(`/la-ruleta`)}
+                className="lg:col-span-4 sm:col-span-1 h-[140px] sm:h-[180px] bg-success text-neutral text-md sm:text-xl font-medium rounded-lg shadow-md hover:bg-secondary transition-all">
+                    La Ruleta
                 </button>
                 <button className="lg:col-span-4 sm:col-span-1 h-[140px] sm:h-[180px] bg-warning text-neutral text-md sm:text-xl font-medium rounded-lg shadow-md hover:bg-secondary transition-all">
                     Juego 3

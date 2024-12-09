@@ -99,39 +99,6 @@ const SinPalabras = () => {
                 </div>
             )}
 
-
-            {/* Barra de Progreso Circular */}
-            {/* {timer > 0 && (
-        <div className="relative">
-          <svg className="w-24 h-24 transform -rotate-90 text-purple-200">
-            <circle
-              cx="50%"
-              cy="50%"
-              r="40%"
-              strokeWidth="6%"
-              stroke="currentColor"
-              fill="none"
-            />
-            <circle
-              cx="50%"
-              cy="50%"
-              r="40%"
-              strokeWidth="6%"
-              stroke="#9333ea"
-              fill="none"
-              strokeDasharray="100"
-              strokeDashoffset={100 - progress}
-              style={{
-                transition: "stroke-dashoffset 1s linear"
-              }}
-            />
-          </svg>
-          <div className="absolute inset-0 flex items-center justify-center text-gray-800 font-bold text-lg">
-            {timer}
-          </div>
-        </div>
-      )} */}
-
             {/* Botones */}
             <div className="space-x-4">
                 {timer === 0 ? (
