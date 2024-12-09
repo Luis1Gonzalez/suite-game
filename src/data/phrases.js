@@ -229,7 +229,10 @@ const neno = [
     "Desesperado",
     "Cuando calienta el sol",
     "El día que me quieras",
-    "La Cumparsita"
+    "La Cumparsita",
+    "Guayana es",
+    "Mono cui cui",
+    "Marta y su duolingo"
 
 ]
 export default neno;
