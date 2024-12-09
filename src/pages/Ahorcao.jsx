@@ -332,7 +332,7 @@ const Ahorcao = () => {
                     {phrase.split("").map((char, index) => (
                         <div
                             key={index}
-                            className={`w-12 h-12 flex justify-center items-center border border-gray-300 rounded bg-gray-50 text-xl font-bold text-gray-700 ${char === " " ? "bg-gray-200" : ""}`}
+                            className={`w-12 h-12 flex justify-center items-center border border-gray-300 rounded bg-gray-50 text-xl font-bold text-gray-700 ${char === " " ? "bg-gray-600" : ""}`}
                         >
                             {revealedLetters[index] !== "_" ? revealedLetters[index] : ""}
                         </div>
